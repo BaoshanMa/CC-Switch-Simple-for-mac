@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D18C06AAA1654A06B6981914 /* CCswitchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63108543A0C44958EF24643 /* CCswitchApp.swift */; };
+		EC68CF1921D34C4D9634044C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40203EA1A9A048BBBF4FAD66 /* AppDelegate.swift */; };
+		A1B2C3D4E5F601234567890A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F601234567890B /* Profile.swift */; };
+		A1B2C3D4E5F601234567890C /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F601234567890D /* Provider.swift */; };
+		A1B2C3D4E5F601234567890E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F601234567890F /* AppState.swift */; };
+		A1B2C3D4E5F60123456789AA /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60123456789AB /* StorageService.swift */; };
+		A1B2C3D4E5F60123456789AC /* SettingsFileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60123456789AD /* SettingsFileService.swift */; };
+		BB01000000000000000001AA /* PopoverRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01000000000000000001AB /* PopoverRootView.swift */; };
+		BB01000000000000000002AA /* ProfileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01000000000000000002AB /* ProfileListView.swift */; };
+		BB01000000000000000003AA /* ProviderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01000000000000000003AB /* ProviderListView.swift */; };
+		BB01000000000000000004AA /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01000000000000000004AB /* SettingsWindowController.swift */; };
+		BB01000000000000000005AA /* SettingsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01000000000000000005AB /* SettingsRootView.swift */; };
+		BB01000000000000000006AA /* ProfileSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01000000000000000006AB /* ProfileSidebarView.swift */; };
+		BB01000000000000000007AA /* ProviderListPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01000000000000000007AB /* ProviderListPanelView.swift */; };
+		BB01000000000000000008AA /* ProviderEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01000000000000000008AB /* ProviderEditView.swift */; };
+		BB01000000000000000009AA /* TemplateEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01000000000000000009AB /* TemplateEditView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3747330D46CE4121ABE7F745 /* CCSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63108543A0C44958EF24643 /* CCswitchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCswitchApp.swift; sourceTree = "<group>"; };
+		40203EA1A9A048BBBF4FAD66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDA51AD662484EB18F7060EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B2C3D4E5F601234567890B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F601234567890D /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F601234567890F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60123456789AB /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60123456789AD /* SettingsFileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFileService.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60123456789AE /* StorageServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageServiceTests.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60123456789AF /* SettingsFileServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFileServiceTests.swift; sourceTree = "<group>"; };
+		BB01000000000000000001AB /* PopoverRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverRootView.swift; sourceTree = "<group>"; };
+		BB01000000000000000002AB /* ProfileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileListView.swift; sourceTree = "<group>"; };
+		BB01000000000000000003AB /* ProviderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderListView.swift; sourceTree = "<group>"; };
+		BB01000000000000000004AB /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		BB01000000000000000005AB /* SettingsRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRootView.swift; sourceTree = "<group>"; };
+		BB01000000000000000006AB /* ProfileSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSidebarView.swift; sourceTree = "<group>"; };
+		BB01000000000000000007AB /* ProviderListPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderListPanelView.swift; sourceTree = "<group>"; };
+		BB01000000000000000008AB /* ProviderEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderEditView.swift; sourceTree = "<group>"; };
+		BB01000000000000000009AB /* TemplateEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateEditView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07E5DD27768744AF8679E923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02480959D7E84116B1C53B97 /* = root = */ = {
+			isa = PBXGroup;
+			children = (
+				BA02F93C39174CBF82CA8F27 /* CCSwitch */,
+				A1B2C3D4E5F601234567891C /* CCSwitchTests */,
+				4D8F3C3D804A48C58C7153AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D8F3C3D804A48C58C7153AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3747330D46CE4121ABE7F745 /* CCSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA02F93C39174CBF82CA8F27 /* CCSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				16B5DBCE12CB4431A072F6FA /* App */,
+				A1B2C3D4E5F601234567891A /* Models */,
+				A1B2C3D4E5F601234567891B /* Services */,
+				BB01000000000000000010AB /* Views */,
+				DDA51AD662484EB18F7060EF /* Info.plist */,
+			);
+			path = CCSwitch;
+			sourceTree = "<group>";
+		};
+		BB01000000000000000010AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB01000000000000000011AB /* Popover */,
+				BB01000000000000000012AB /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB01000000000000000011AB /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				BB01000000000000000001AB /* PopoverRootView.swift */,
+				BB01000000000000000002AB /* ProfileListView.swift */,
+				BB01000000000000000003AB /* ProviderListView.swift */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		BB01000000000000000012AB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BB01000000000000000004AB /* SettingsWindowController.swift */,
+				BB01000000000000000005AB /* SettingsRootView.swift */,
+				BB01000000000000000006AB /* ProfileSidebarView.swift */,
+				BB01000000000000000007AB /* ProviderListPanelView.swift */,
+				BB01000000000000000008AB /* ProviderEditView.swift */,
+				BB01000000000000000009AB /* TemplateEditView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		16B5DBCE12CB4431A072F6FA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C63108543A0C44958EF24643 /* CCswitchApp.swift */,
+				40203EA1A9A048BBBF4FAD66 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F601234567891A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F601234567890B /* Profile.swift */,
+				A1B2C3D4E5F601234567890D /* Provider.swift */,
+				A1B2C3D4E5F601234567890F /* AppState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F601234567891B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60123456789AB /* StorageService.swift */,
+				A1B2C3D4E5F60123456789AD /* SettingsFileService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F601234567891C /* CCSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60123456789AE /* StorageServiceTests.swift */,
+				A1B2C3D4E5F60123456789AF /* SettingsFileServiceTests.swift */,
+			);
+			path = CCSwitchTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		709B213E90F0457D83D19F0F /* CCSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379A0943247A467F81F03506 /* Build configuration list for PBXNativeTarget "CCSwitch" */;
+			buildPhases = (
+				BD91CF436C7B4607BCDB378C /* Sources */,
+				07E5DD27768744AF8679E923 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCSwitch;
+			productName = CCSwitch;
+			productReference = 3747330D46CE4121ABE7F745 /* CCSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2898A568E6104DFCACE25788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					709B213E90F0457D83D19F0F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 0A39D73093D940E8AB947222 /* Build configuration list for PBXProject "CCSwitch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02480959D7E84116B1C53B97;
+			productRefGroup = 4D8F3C3D804A48C58C7153AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709B213E90F0457D83D19F0F /* CCSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD91CF436C7B4607BCDB378C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18C06AAA1654A06B6981914 /* CCswitchApp.swift in Sources */,
+				EC68CF1921D34C4D9634044C /* AppDelegate.swift in Sources */,
+				A1B2C3D4E5F601234567890A /* Profile.swift in Sources */,
+				A1B2C3D4E5F601234567890C /* Provider.swift in Sources */,
+				A1B2C3D4E5F601234567890E /* AppState.swift in Sources */,
+				A1B2C3D4E5F60123456789AA /* StorageService.swift in Sources */,
+				A1B2C3D4E5F60123456789AC /* SettingsFileService.swift in Sources */,
+				BB01000000000000000001AA /* PopoverRootView.swift in Sources */,
+				BB01000000000000000002AA /* ProfileListView.swift in Sources */,
+				BB01000000000000000003AA /* ProviderListView.swift in Sources */,
+				BB01000000000000000004AA /* SettingsWindowController.swift in Sources */,
+				BB01000000000000000005AA /* SettingsRootView.swift in Sources */,
+				BB01000000000000000006AA /* ProfileSidebarView.swift in Sources */,
+				BB01000000000000000007AA /* ProviderListPanelView.swift in Sources */,
+				BB01000000000000000008AA /* ProviderEditView.swift in Sources */,
+				BB01000000000000000009AA /* TemplateEditView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F832CF9A800473EB16EB29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF837B0964E4B9390FF5607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E46119D015DF4027B11B2794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CCSwitch/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mabaoshan.CCSwitch;
+				PRODUCT_NAME = CCSwitch;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		268A56A5A7B24F1896119562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CCSwitch/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mabaoshan.CCSwitch;
+				PRODUCT_NAME = CCSwitch;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A39D73093D940E8AB947222 /* Build configuration list for PBXProject "CCSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F832CF9A800473EB16EB29E /* Debug */,
+				CEF837B0964E4B9390FF5607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379A0943247A467F81F03506 /* Build configuration list for PBXNativeTarget "CCSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46119D015DF4027B11B2794 /* Debug */,
+				268A56A5A7B24F1896119562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2898A568E6104DFCACE25788 /* Project object */;
+}
